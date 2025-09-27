@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'features/authentication/google_sign_in/presentations/screens/google_sign_in_screen.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MyHomePage(),
+      home: GoogleSignInScreen(),
     );
   }
 }
